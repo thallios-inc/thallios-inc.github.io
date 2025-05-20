@@ -17,20 +17,33 @@
       background-color: #34465e;
       color: #ffffff;
     }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
     h1 {
       font-size: 4em;
-      margin-bottom: 20px;
+      margin: 0;
     }
     img {
-      max-width: 300px;
-      width: 80%;
+      max-width: 150px;
+      width: 150px;
       height: auto;
+    }
+    .coming-soon {
+      margin-top: 20px;
+      font-size: 1.2em;
     }
   </style>
 </head>
 <body>
-  <h1>Thallios Inc.</h1>
-  <img src="logo-white.png" alt="Thallios Logo">
-  <p1>Coming soon...</p1>
+  <div class="header">
+    <img src="logo-white.png" alt="Thallios Logo">
+    <h1>THALLIOS</h1>
+  </div>
+  <div class="coming-soon">Coming soon...</div>
 </body>
 </html>
